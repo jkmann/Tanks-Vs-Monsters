@@ -168,7 +168,7 @@ namespace RTS_Cam
         private void Start()
         {
             m_Transform = transform;
-			Vector3 initpos = new Vector3(87, 67, -96);
+			Vector3 initpos = new Vector3(250, 67, -60);
 			transform.position = initpos;
         }
 
