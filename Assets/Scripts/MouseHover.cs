@@ -13,11 +13,12 @@ public class MouseHover : MonoBehaviour {
 	void Update () {
 		
 	}
-	void OnMouseEnter(){
-		GetComponent<Renderer> ().material.color = Color.yellow;
+	public void onHover(){
+		//GetComponent<Renderer> ().material.color = Color.yellow;
+		GetComponent<Font> ().material.color = Color.yellow;
 	}
 
-	void OnMouseExit() {
-		GetComponent<Renderer> ().material.color = Color.white;
+	public void onExit() {
+		GetComponent<Font>().material.color = Color.white;	
 	}
 }

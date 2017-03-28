@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
 
-	public bool isStart;
-	public bool isQuit;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -16,15 +15,13 @@ public class Menu : MonoBehaviour {
 	void Update () {
 		
 	}
-	void OnMouseUp(){
-		if(isStart)
-		{
-			SceneManager.LoadScene("Scene 1");
-		}
-		if (isQuit)
-		{
-			Application.Quit();
-		}
-	} 
+	public void NewSceneLoader(){
+		//Debug.Log ("loading");
+		SceneManager.LoadScene("Scene 1");
 
+	} public void quitGame(){
+		Application.Quit();
+		
+	} 
 }
+
