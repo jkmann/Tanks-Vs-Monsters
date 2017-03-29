@@ -8,13 +8,13 @@ public class timerText : MonoBehaviour
 
 	public Text time;
 	public Text objective;
-	private float start_Time;
+	//private float start_Time;
 	private static float current_Time;
 	//private string text_Time;
 	// Use this for initialization
 	void Start ()
 	{
-		start_Time = Time.time;
+		//start_Time = Time.time;
 		current_Time = 120;
 
 	}

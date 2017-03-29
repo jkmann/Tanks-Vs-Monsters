@@ -6,13 +6,13 @@ public class Level1Enemy : MonoBehaviour {
 
 	public Transform target;
 	UnityEngine.AI.NavMeshAgent enemyAgent;
-	Vector3 destination;
+	//Vector3 destination;
 	Vector3 m_initialposition;
 
 	// Use this for initialization
 	void Start () {
 		enemyAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-		destination = enemyAgent.destination;
+		//destination = enemyAgent.destination;
 		m_initialposition = transform.position;
 		target = GameObject.Find ("Player").transform;
 
