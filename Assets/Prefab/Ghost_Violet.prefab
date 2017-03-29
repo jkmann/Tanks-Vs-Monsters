@@ -67,6 +67,7 @@ GameObject:
   - component: {fileID: 95530823275012322}
   - component: {fileID: 114112154752152598}
   - component: {fileID: 195940665941427124}
+  - component: {fileID: 65475106457456160}
   m_Layer: 0
   m_Name: Ghost_Violet
   m_TagString: Enemy
@@ -362,6 +363,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65475106457456160
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310533860578602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95530823275012322
 Animator:
   serializedVersion: 3

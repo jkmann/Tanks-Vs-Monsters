@@ -25,14 +25,15 @@ public class Level1Enemy : MonoBehaviour {
 		//Debug.Log (timerText.getTime());
 
 	}
-	void OnCollisionEnter(Collision other){
-		if (other.gameObject.tag == "Player") {
-			Debug.Log ("collided with tank");
+
+	//void OnCollisionEnter(Collision other){
+	//	if (other.gameObject.tag == "Player") {
+	//		Debug.Log ("collided with tank");
 			//transform.position = m_initialposition;
-			enemyAgent.transform.position = m_initialposition;
+	//		enemyAgent.transform.position = m_initialposition;
 
-		}
+	//	}
 
 
-}
+//}
 }

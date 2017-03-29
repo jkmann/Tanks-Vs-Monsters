@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 95124465995590198}
   - component: {fileID: 114455632559969098}
   - component: {fileID: 195113295859727204}
+  - component: {fileID: 65297893485057034}
   m_Layer: 0
   m_Name: Ghost_Green
   m_TagString: Enemy
@@ -362,6 +363,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65297893485057034
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104988897675668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95124465995590198
 Animator:
   serializedVersion: 3

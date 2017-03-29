@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 95223671005539606}
   - component: {fileID: 114235425514738788}
   - component: {fileID: 195331186619446186}
+  - component: {fileID: 65978526198872952}
   m_Layer: 0
   m_Name: Ghost_White
   m_TagString: Enemy
@@ -362,6 +363,18 @@ Transform:
   m_Father: {fileID: 4573639719966240}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65978526198872952
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378113762064128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95223671005539606
 Animator:
   serializedVersion: 3
