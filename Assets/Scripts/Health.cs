@@ -6,24 +6,28 @@ public class Health : MonoBehaviour {
 
     public GameObject deathExplosion;
 	public int playerHealth = 100;
-	int damage = 20;
-
+	int damage = 2;
+	int bossDamage = 8;
 	void Start(){
 		print (playerHealth);
 	}
 	void Update(){
 		if (playerHealth <= 0) {
-			playerHealth = 0;
+			HealthText.current_health = 0;
             Instantiate(deathExplosion, transform.position, Quaternion.identity);
 			Destroy(GameObject.Find("Player"));
 		}
 	}
 
 	void OnCollisionEnter(Collision _collision){
-		if(_collision.gameObject.tag=="Enemy"){
+		if (_collision.gameObject.tag == "Enemy") {
 			playerHealth -= damage;
 			print ("oh no I've been hit!" + playerHealth);
 			HealthText.current_health = playerHealth;
+		} if (_collision.gameObject.tag == "Boss") {
+			playerHealth -= bossDamage;
+			HealthText.current_health = playerHealth;
+			print ("boss hit");
 		}
 	}
 }

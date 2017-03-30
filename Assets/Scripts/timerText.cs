@@ -15,7 +15,7 @@ public class timerText : MonoBehaviour
 	void Start ()
 	{
 		//start_Time = Time.time;
-		current_Time = 120;
+		current_Time = 10;
 
 	}
 	
