@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1667,6 +1667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae67455f110554e73b7b597bdea5a42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathExplosion: {fileID: 1705288596171410, guid: d316830c08a3a1347b48189502279834,
+    type: 2}
   playerHealth: 100
 --- !u!54 &1155157820
 Rigidbody:

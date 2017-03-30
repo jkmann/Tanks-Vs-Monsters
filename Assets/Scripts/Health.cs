@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
+    public GameObject deathExplosion;
 	public int playerHealth = 100;
-	int damage = 2;
+	int damage = 20;
 
 	void Start(){
 		print (playerHealth);
@@ -13,6 +14,7 @@ public class Health : MonoBehaviour {
 	void Update(){
 		if (playerHealth <= 0) {
 			playerHealth = 0;
+            Instantiate(deathExplosion, transform.position, Quaternion.identity);
 			Destroy(GameObject.Find("Player"));
 		}
 	}
