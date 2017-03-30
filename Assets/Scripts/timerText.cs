@@ -21,17 +21,17 @@ public class timerText : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update ()
-	{
-		current_Time -= Time.deltaTime;
+	{current_Time -= Time.deltaTime;
 		string minutes = ((int)current_Time / 60).ToString();
 		string seconds = (current_Time % 60).ToString ("f2");
 		time.text = minutes + ":" + seconds;
-
-		if (current_Time <= 110){
-			objective.text = " ";
-		}	if (current_Time == 0){
+		
+		if (current_Time <= 0) {
 			objective.text = "Defeat the boss!";
-		}
+			time.text = "0:00";
+		} else if (current_Time <= 110 && current_Time > 0) {
+			objective.text = " ";
+		} 
 	}
 
 	public static float getTime ()

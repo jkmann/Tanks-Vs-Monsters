@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level2Enemy : MonoBehaviour {
+public class BossAI : MonoBehaviour {
 
 	public Transform target;
 	UnityEngine.AI.NavMeshAgent enemyAgent;
-	public int health = 2;
+	public int health = 25;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +19,6 @@ public class Level2Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		enemyAgent.destination = target.position;
-
 
 	}
 

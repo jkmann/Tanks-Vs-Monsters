@@ -10,6 +10,12 @@ public class Health : MonoBehaviour {
 	void Start(){
 		print (playerHealth);
 	}
+	void Update(){
+		if (playerHealth <= 0) {
+			playerHealth = 0;
+			Destroy(GameObject.Find("Player"));
+		}
+	}
 
 	void OnCollisionEnter(Collision _collision){
 		if(_collision.gameObject.tag=="Enemy"){
