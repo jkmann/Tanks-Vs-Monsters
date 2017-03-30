@@ -6,7 +6,7 @@ public class BossAI : MonoBehaviour {
 
 	public Transform target;
 	UnityEngine.AI.NavMeshAgent enemyAgent;
-	public int health = 25;
+	public static int health = 25;
 
 	// Use this for initialization
 	void Start () {
@@ -32,4 +32,7 @@ public class BossAI : MonoBehaviour {
 
 
 	//}
+	public static int getHealth(){
+		return health;
+	}
 }

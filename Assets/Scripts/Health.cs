@@ -5,7 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour {
 
     public GameObject deathExplosion;
-	public int playerHealth = 100;
+	public static int playerHealth = 100;
 	int damage = 2;
 	int bossDamage = 8;
 	void Start(){
@@ -29,5 +29,8 @@ public class Health : MonoBehaviour {
 			HealthText.current_health = playerHealth;
 			print ("boss hit");
 		}
+	}
+	public static int getHealth (){
+		return playerHealth;
 	}
 }
