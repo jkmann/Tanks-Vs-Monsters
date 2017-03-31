@@ -8,14 +8,18 @@ public class Health : MonoBehaviour {
 	public static int playerHealth = 100;
 	int damage = 2;
 	int bossDamage = 8;
+	public bool isDead = false;
+	public AudioClip explosion;
 	void Start(){
 		print (playerHealth);
 	}
 	void Update(){
-		if (playerHealth <= 0) {
+		if (playerHealth <= 0 && isDead == false) {
 			HealthText.current_health = 0;
             Instantiate(deathExplosion, transform.position, Quaternion.identity);
+			AudioSource.PlayClipAtPoint (explosion, Camera.main.transform.position);
 			Destroy(GameObject.Find("Player"));
+
 		}
 	}
 

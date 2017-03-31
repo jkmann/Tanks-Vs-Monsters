@@ -10,8 +10,8 @@ public class CheckWin : MonoBehaviour {
 	public Text winOrLose;
 	public float timeOfEvent;
 	public bool hasEnded = false;
-	public string won = "You Win!";
-	public string lost = "You Lose!";
+	public string won = "You   Win!";
+	public string lost = "You   Lose!";
 	public string result;
 	// Use this for initialization
 	void Start () {
@@ -35,9 +35,14 @@ public class CheckWin : MonoBehaviour {
 		}
 		if (hasEnded == true) {
 			winOrLose.text = result;
-			if (5.0 == (timeOfEvent - timerText.getTime()))
-				SceneManager.LoadScene("Main Menu");
-				print ("loading menu");
+			StartCoroutine ("DelayStart");
+			print ("loading menu");
 		}
 }
+	private IEnumerator DelayStart()
+	{
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene (0);
+
+	}
 }

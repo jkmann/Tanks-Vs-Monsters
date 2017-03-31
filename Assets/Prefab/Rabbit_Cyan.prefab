@@ -36,6 +36,7 @@ GameObject:
   - component: {fileID: 4401401468491272}
   - component: {fileID: 95058190372597182}
   - component: {fileID: 195822003035215596}
+  - component: {fileID: 114597535228177146}
   m_Layer: 0
   m_Name: Rabbit_Cyan
   m_TagString: Enemy
@@ -726,6 +727,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114597535228177146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090162981957510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b0d1db9fd084921bb923fb8bb98be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  health: 2
 --- !u!137 &137435749267880298
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
