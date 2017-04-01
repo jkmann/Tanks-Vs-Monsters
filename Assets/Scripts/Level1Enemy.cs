@@ -19,18 +19,21 @@ public class Level1Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		enemyAgent.destination = target.position;
-
+		if (health <= 0) {
+			Destroy (gameObject);
+		}
 
 	}
 
-	//void OnCollisionEnter(Collision other){
-	//	if (other.gameObject.tag == "Player") {
-	//		Debug.Log ("collided with tank");
-			//transform.position = m_initialposition;
-	//		enemyAgent.transform.position = m_initialposition;
+	void OnTriggerEnter(Collider coll){
+		print ("coll detected");
+		if (coll.gameObject.tag == "Projectile") {
+			print ("Monster hit");
+			health--;
 
-	//	}
-
+		}
+	}
+}
 
 //}
-}
+

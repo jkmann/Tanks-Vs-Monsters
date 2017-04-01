@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce654af19ccf442b78b558e94d1bee04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuMusic: {fileID: 8300000, guid: 7820303dd6f144d2a9f80460fd177f0a, type: 3}
 --- !u!114 &156190213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,6 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce654af19ccf442b78b558e94d1bee04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuMusic: {fileID: 0}
 --- !u!114 &1943925983
 MonoBehaviour:
   m_ObjectHideFlags: 0

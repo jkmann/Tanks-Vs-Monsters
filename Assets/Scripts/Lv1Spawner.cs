@@ -21,7 +21,7 @@ public class Lv1Spawner : MonoBehaviour {
 			CancelInvoke ();
 		}
 		if (timerText.getTime () < 45 && isWave == true) {
-			InvokeRepeating ("spawnMonster", 5.0f, 4.0f);
+			InvokeRepeating ("spawnMonster", 5.0f, 3.0f);
 			isWave = false;
 		}
 		if (timerText.getTime () < 10 && isBoss == true) {
@@ -37,4 +37,6 @@ public class Lv1Spawner : MonoBehaviour {
 		int spawn = Random.Range (0, spawnLocations.Length);
 		clones[Index] = Instantiate(prefab[Index], spawnLocations[spawn].transform.position, Quaternion.Euler(0,0,0))as GameObject;
 	}
-}
+
+	}
+

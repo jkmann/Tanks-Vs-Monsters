@@ -8,16 +8,18 @@ public class BossSpawner : MonoBehaviour {
 	bool hasSpawned = true;
 	public GameObject prefab;
 	public GameObject clone;
+	//public AudioClip bossMusic;
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (timerText.getTime() <= 0 && hasSpawned == true){
 			clone = Instantiate(prefab, spawnLocation.transform.position, Quaternion.Euler(0,0,0))as GameObject;
+			//AudioSource.PlayClipAtPoint (bossMusic, Camera.main.transform.position);
 			hasSpawned = false;
 	}
+
 }
 }

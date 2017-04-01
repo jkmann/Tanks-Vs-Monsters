@@ -13,6 +13,8 @@ public class CheckWin : MonoBehaviour {
 	public string won = "You   Win!";
 	public string lost = "You   Lose!";
 	public string result;
+	public AudioClip victory;
+	public AudioClip loss;
 	// Use this for initialization
 	void Start () {
 		
@@ -24,10 +26,12 @@ public class CheckWin : MonoBehaviour {
 			//winOrLose.text = "You   Win!";
 			result = won;
 			timeOfEvent = timerText.getTime ();
+			AudioSource.PlayClipAtPoint (victory, Camera.main.transform.position);
 			hasEnded = true;
 		} else if (Health.getHealth() <= 0 && hasEnded == false){
 			//winOrLose.text = "You   Lose!";
 			timeOfEvent = timerText.getTime ();
+			AudioSource.PlayClipAtPoint (loss, Camera.main.transform.position);
 			result = lost;
 			hasEnded = true;
 		}	else if (hasEnded == false) {

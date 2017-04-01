@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
 
-
+	public AudioClip menuMusic;
 	// Use this for initialization
 	void Start () {
-		
+		AudioSource.PlayClipAtPoint (menuMusic, Camera.main.transform.position);
 	}
 	
 	// Update is called once per frame

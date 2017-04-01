@@ -17,7 +17,7 @@ public class Lv2Spawner : MonoBehaviour {
 	void Update () {
 		//InvokeRepeating ("spawnMonster", 5.0f, 3.0f);
 		if (timerText.getTime () < 90 && timeCheck == true) {
-			InvokeRepeating ("spawnMonster", 5.0f, 2.5f);
+			InvokeRepeating ("spawnMonster", 5.0f, 2.7f);
 			timeCheck = false;
 		} else if (timerText.getTime() < 10) {
 			CancelInvoke ();

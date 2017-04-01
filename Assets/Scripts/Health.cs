@@ -18,12 +18,12 @@ public class Health : MonoBehaviour {
 			HealthText.current_health = 0;
             Instantiate(deathExplosion, transform.position, Quaternion.identity);
 			AudioSource.PlayClipAtPoint (explosion, Camera.main.transform.position);
-			Destroy(GameObject.Find("Player"));
+			Destroy(gameObject);
 
 		}
 	}
 
-	void OnCollisionEnter(Collision _collision){
+	void OnTriggerEnter(Collider _collision){
 		if (_collision.gameObject.tag == "Enemy") {
 			playerHealth -= damage;
 			print ("oh no I've been hit!" + playerHealth);
