@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -398,6 +398,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 177254, guid: e086196633391794b92cb8199f8053ac, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e086196633391794b92cb8199f8053ac, type: 2}
   m_IsPrefabParent: 0
@@ -690,6 +694,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
   m_IsPrefabParent: 0
@@ -886,6 +894,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -955,6 +967,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -1085,6 +1101,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -1230,6 +1250,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -1300,6 +1324,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -1365,6 +1393,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -1439,6 +1471,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -1579,6 +1615,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -1793,6 +1833,10 @@ Prefab:
     - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
@@ -2210,6 +2254,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -2309,6 +2357,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -2545,6 +2597,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
   m_IsPrefabParent: 0
@@ -2700,6 +2756,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -3016,6 +3076,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -3230,6 +3294,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -3295,6 +3363,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -4798,6 +4870,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
   m_IsPrefabParent: 0
@@ -4959,6 +5035,10 @@ Prefab:
     - target: {fileID: 192764, guid: c98af42ce7aec0543a054d041fe33418, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 182358, guid: c98af42ce7aec0543a054d041fe33418, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c98af42ce7aec0543a054d041fe33418, type: 2}
@@ -5178,6 +5258,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -5251,6 +5335,10 @@ Prefab:
     - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
@@ -5456,6 +5544,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -5526,6 +5618,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -5591,6 +5687,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -6217,6 +6317,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -6286,6 +6390,10 @@ Prefab:
     - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
@@ -6357,6 +6465,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2db790bad0bff3e48a828085944ea749, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2db790bad0bff3e48a828085944ea749, type: 2}
   m_IsPrefabParent: 0
@@ -6422,6 +6534,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -6563,6 +6679,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -6628,6 +6748,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -7011,6 +7135,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -7076,6 +7204,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -7290,6 +7422,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -7613,6 +7749,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 0d6c5697d33c56e46b4508555460f763, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d6c5697d33c56e46b4508555460f763, type: 2}
   m_IsPrefabParent: 0
@@ -7784,6 +7924,10 @@ Prefab:
     - target: {fileID: 160350, guid: f0b2ac67c9a97fd498b5c8d0195f8d9e, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 160350, guid: f0b2ac67c9a97fd498b5c8d0195f8d9e, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0b2ac67c9a97fd498b5c8d0195f8d9e, type: 2}
@@ -8350,6 +8494,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -8419,6 +8567,10 @@ Prefab:
     - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
@@ -8699,6 +8851,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -9032,10 +9188,10 @@ Rigidbody:
   m_GameObject: {fileID: 1653552702}
   serializedVersion: 2
   m_Mass: 5000
-  m_Drag: 0
+  m_Drag: 10
   m_AngularDrag: 0
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -9253,6 +9409,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -10112,6 +10272,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -10251,6 +10415,10 @@ Prefab:
     - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5eb49950fe654548a6d59c7058e7b1d, type: 2}
@@ -10489,6 +10657,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -10673,6 +10845,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
@@ -10896,6 +11072,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
   m_IsPrefabParent: 0
@@ -11090,6 +11270,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}
+      propertyPath: m_TagString
+      value: Town
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 2}

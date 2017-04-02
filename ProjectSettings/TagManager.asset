@@ -8,6 +8,7 @@ TagManager:
   - Spawn
   - Boss
   - Projectile
+  - Town
   layers:
   - Default
   - TransparentFX
