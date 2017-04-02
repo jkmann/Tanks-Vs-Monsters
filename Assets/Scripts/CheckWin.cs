@@ -17,13 +17,14 @@ public class CheckWin : MonoBehaviour {
 	public AudioClip loss;
 	// Use this for initialization
 	void Start () {
-		
+		hasEnded = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (BossAI.getHealth () <= 0 && hasEnded == false) {
 			//winOrLose.text = "You   Win!";
+			print("you win!");
 			result = won;
 			timeOfEvent = timerText.getTime ();
 			AudioSource.PlayClipAtPoint (victory, Camera.main.transform.position);
@@ -47,6 +48,6 @@ public class CheckWin : MonoBehaviour {
 	{
 		yield return new WaitForSeconds(5);
 		SceneManager.LoadScene (0);
-
+		BossAI.setHealth (15);
 	}
 }

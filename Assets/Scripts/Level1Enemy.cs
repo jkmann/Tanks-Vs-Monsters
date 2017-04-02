@@ -7,7 +7,7 @@ public class Level1Enemy : MonoBehaviour {
 	public Transform target;
 	UnityEngine.AI.NavMeshAgent enemyAgent;
 	public int health = 1;
-
+	public AudioClip hit;
 	// Use this for initialization
 	void Start () {
 		enemyAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -30,7 +30,7 @@ public class Level1Enemy : MonoBehaviour {
 		if (coll.gameObject.tag == "Projectile") {
 			print ("Monster hit");
 			health--;
-
+			AudioSource.PlayClipAtPoint (hit, Camera.main.transform.position);
 		}
 	}
 }

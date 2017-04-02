@@ -11,7 +11,8 @@ public class Health : MonoBehaviour {
 	public bool isDead = false;
 	public AudioClip explosion;
 	void Start(){
-		print (playerHealth);
+		
+		playerHealth = 100;
 	}
 	void Update(){
 		if (playerHealth <= 0 && isDead == false) {

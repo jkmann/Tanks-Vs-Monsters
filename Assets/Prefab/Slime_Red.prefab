@@ -549,6 +549,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  hit: {fileID: 8300000, guid: 95f62d26575ca6544ac963aeb980f59c, type: 3}
+  hasSpawned: 0
 --- !u!137 &137299919671726834
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
